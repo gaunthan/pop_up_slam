@@ -8,7 +8,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j2
 
 # install isam dependency
-sudo apt-get install cmake libsuitesparse-dev libeigen3-dev libsdl1.2-dev doxygen graphviz
+sudo apt-get install cmake libsuitesparse-dev libeigen3-dev libsdl1.2-dev doxygen graphviz ros-*-pcl-conversions
 
 # install python library
 sudo easy_install pip
