@@ -1,4 +1,4 @@
-intervaltree
+intervaltree==2.1.0
 scikit-image
 cython
 numpy
