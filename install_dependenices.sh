@@ -11,6 +11,6 @@ make -j2
 sudo apt-get install cmake libsuitesparse-dev libeigen3-dev libsdl1.2-dev doxygen graphviz ros-*-pcl-conversions ros-*-pcl-ros ros-*-rviz ros-*-rviz-plugin-tutorials
 
 # install python library
-sudo easy_install pip
+easy_install pip
 cd ../../../..
-sudo pip install -r py_requirements.txt
+pip install -r py_requirements.txt --user
