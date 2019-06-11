@@ -42,6 +42,7 @@ If ```wget``` not installed, ```sudo apt-get install wget ```
 ```bash
 cd ~/popup_ws
 catkin_make -j4
+catkin_make --only-pkg-with-deps odom_tf_utils
 catkin_make --only-pkg-with-deps pop_up_python -j4     #just double check
 catkin_make --only-pkg-with-deps pop_planar_slam -j4   #just double check
 ```
